@@ -18,6 +18,7 @@ class LineItemsControllerTest < ActionController::TestCase
 
   test "should create line_item" do
     assert_difference('LineItem.count') do
+      
       post :create, line_item: { cart_id: @line_item.cart_id, product_id: @line_item.product_id }
     end
 
