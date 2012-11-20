@@ -1,6 +1,6 @@
-<% form_tag do %>
-  <% for @product in @products %>
-    <%= text_field("product[]", 'image_url') %><br />
-  <% end %>
-  <%= submit_tag %>
-<% end %>
+<h1>Editing line_item</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @line_item %> |
+<%= link_to 'Back', line_items_path %>
