@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  hased_password: MyString
+  hashed_password: MyString
   salt: MyString
 
 two:
   name: MyString
-  hased_password: MyString
+  hashed_password: MyString
   salt: MyString
